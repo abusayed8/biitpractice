@@ -1,4 +1,4 @@
-import 'package:biitpractice/pages/listviewclass.dart';
+import 'package:biitpractice/pages/listviewclasss.dart';
 import 'package:flutter/material.dart';
 class RowClass extends StatefulWidget {
   const RowClass({Key? key}) : super(key: key);
@@ -19,7 +19,7 @@ class _RowClassState extends State<RowClass> {
         child: Row(
           children: [
             GestureDetector(
-              onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>listViewClass())),
+              onTap: ()=>Navigator.push(context, MaterialPageRoute(builder: (context)=>ListViewclasss())),
               child: Container(
                 height: 200,
                 width: 200,

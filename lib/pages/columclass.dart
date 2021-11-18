@@ -15,40 +15,661 @@ class _ColumnsClassesState extends State<ColumnsClasses> {
       ),
 
       body:SingleChildScrollView(
-        child:  Column(
+        child: Column(
           children: [
             Container(
               height: 200,
-              width: 200,
-              margin: EdgeInsets.all(20),
-              color: Colors.blue,
+              width: 300,
+              margin: EdgeInsets.only(bottom: 10,top:10,left: 20),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child:SingleChildScrollView(
+                        child:  Column(
+                          children: [
+                            Container(
+                              height: 50,
+                              width: 50,
+                              margin: EdgeInsets.only(bottom: 8),
+                              color: Colors.blue,
+                            ),
+                            Container(
+                              height: 50,
+                              width: 50,
+                              margin: EdgeInsets.only(bottom: 8),
+                              color: Colors.blue,
+                            ),
+                            Container(
+                              height: 50,
+                              width: 50,
+                              margin: EdgeInsets.only(bottom: 8),
+                              color: Colors.blue,
+                            ),
+                            Container(
+                              height: 50,
+                              width: 50,
+                              margin: EdgeInsets.only(bottom: 8),
+                              color: Colors.blue,
+                            ),
+                            Container(
+                              height: 50,
+                              width: 50,
+                              margin: EdgeInsets.only(bottom: 8),
+                              color: Colors.blue,
+                            ),
+
+                          ],
+                        ),
+                      ),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                  ],
+                ),
+              ),
+
             ),
             Container(
               height: 200,
-              width: 200,
-              margin: EdgeInsets.all(20),
-              color: Colors.blue,
-            ),           Container(
-              height: 200,
-              width: 200,
-              margin: EdgeInsets.all(20),
-              color: Colors.blue,
+              width: 300,
+              margin: EdgeInsets.only(bottom: 10,top:10,left: 20),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                  ],
+                ),
+              ),
+
             ),
             Container(
               height: 200,
-              width: 200,
-              margin: EdgeInsets.all(20),
-              color: Colors.blue,
+              width: 300,
+              margin: EdgeInsets.only(bottom: 10,top:10,left: 20),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                  ],
+                ),
+              ),
+
             ),
             Container(
               height: 200,
-              width: 200,
-              margin: EdgeInsets.all(20),
-              color: Colors.blue,
+              width: 300,
+              margin: EdgeInsets.only(bottom: 10,top:10,left: 20),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                  ],
+                ),
+              ),
+
             ),
+            Container(
+              height: 200,
+              width: 300,
+              margin: EdgeInsets.only(bottom: 10,top:10,left: 20),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                  ],
+                ),
+              ),
+
+            ),
+            Container(
+              height: 200,
+              width: 300,
+              margin: EdgeInsets.only(bottom: 10,top:10,left: 20),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.red,
+                borderRadius: BorderRadius.circular(20),
+              ),
+              child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                    Container(
+                      height: 150,
+                      width: 100,
+                      margin: EdgeInsets.only(left: 20),
+                      alignment: Alignment.center,
+                      decoration: BoxDecoration(
+                        color: Colors.green,
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                      child: Text('Mehedi is a BC'),
+
+                    ),
+                  ],
+                ),
+              ),
+
+            ),
+
+
           ],
         ),
-      ),
+      )
     );
   }
 }

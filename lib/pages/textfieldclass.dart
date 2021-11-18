@@ -1,5 +1,7 @@
-import 'package:biitpractice/pages/listviewclass.dart';
+import 'package:biitpractice/pages/columclass.dart';
+import 'package:biitpractice/pages/listviewclasss.dart';
 import 'package:flutter/material.dart';
+
 
 class TextFieldClass extends StatefulWidget {
   const TextFieldClass({Key? key}) : super(key: key);
@@ -17,8 +19,8 @@ class _TextFieldClassState extends State<TextFieldClass> {
         centerTitle: true,
       ),
       floatingActionButton: FloatingActionButton.extended(
-          onPressed: (){},
-          label: Text('Compose'),
+        onPressed: () {},
+        label: Text('Compose'),
         icon: Icon(Icons.add),
         //child: Text('Composebbbbbbbbbbbbbbbbb'),
       ),
@@ -44,14 +46,8 @@ class _TextFieldClassState extends State<TextFieldClass> {
             child: Column(children: [
               Image.asset(
                 'images/back.jpg',
-                height: MediaQuery
-                    .of(context)
-                    .size
-                    .height / 7,
-                width: MediaQuery
-                    .of(context)
-                    .size
-                    .width,
+                height: MediaQuery.of(context).size.height / 7,
+                width: MediaQuery.of(context).size.width,
                 fit: BoxFit.fill,
               ),
 
@@ -59,15 +55,11 @@ class _TextFieldClassState extends State<TextFieldClass> {
                 height: 10,
               ),
               Image.network(
-                "https://picsum.photos/250?image=9", height: MediaQuery
-                  .of(context)
-                  .size
-                  .height / 10,
-                width: MediaQuery
-                    .of(context)
-                    .size
-                    .width,
-                fit: BoxFit.fill,),
+                "https://picsum.photos/250?image=9",
+                height: MediaQuery.of(context).size.height / 10,
+                width: MediaQuery.of(context).size.width,
+                fit: BoxFit.fill,
+              ),
 
               // Image.network(
               //   'https://picsum.photos/250?image=9',
@@ -96,7 +88,7 @@ class _TextFieldClassState extends State<TextFieldClass> {
               ),
               TextField(
                 decoration: InputDecoration(
-                  //hintText: 'Name',
+                    //hintText: 'Name',
                     labelText: 'Password',
                     labelStyle: TextStyle(color: Colors.white),
                     border: OutlineInputBorder(
@@ -114,14 +106,11 @@ class _TextFieldClassState extends State<TextFieldClass> {
               GestureDetector(
                 onTap: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => listViewClass()));
+                      MaterialPageRoute(builder: (context) => ListViewclasss()));
                 },
                 child: Container(
                   height: 50,
-                  width: MediaQuery
-                      .of(context)
-                      .size
-                      .width,
+                  width: MediaQuery.of(context).size.width,
                   color: Colors.blue,
                   alignment: Alignment.center,
                   child: Text('Log In'),
@@ -130,25 +119,39 @@ class _TextFieldClassState extends State<TextFieldClass> {
               SizedBox(
                 height: 10,
               ),
-              // FlatButton(
-              //     onPressed: () {
-              //       Navigator.push(context,
-              //           MaterialPageRoute(builder: (context) => stack()));
-              //     },
-              //     // color: Colors.green,
-              //     // hoverColor: Colors.blue,
-              //     child: Text('Flat Button')),
+              FlatButton(
+                  onPressed: () {
+                    Navigator.push(context,
+                        MaterialPageRoute(builder: (context) => ListViewclasss()));
+                  },
+                  // color: Colors.green,
+                  // hoverColor: Colors.blue,
+                  child: Text('Flat Button')),
               SizedBox(
                 height: 10,
               ),
               RaisedButton(
                 onPressed: () {
                   Navigator.push(context,
-                      MaterialPageRoute(builder: (context) => listViewClass()));
+                      MaterialPageRoute(builder: (context) => ListViewclasss()));
                 },
                 // color: Colors.blue,
                 // splashColor: Colors.red,
                 child: Text("Raised Button"),
+              ),
+              SizedBox(
+                height: 10,
+              ),
+
+              TextButton(
+                onPressed: () {
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => ColumnsClasses()));
+                },
+                child: Text('Text Button'),
+                style: TextButton.styleFrom(backgroundColor: Colors.red),
               )
               // GestureDetector(
               //   onTap: (){

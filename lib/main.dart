@@ -1,4 +1,4 @@
-import 'package:biitpractice/pages/textfieldclass.dart';
+import 'package:biitpractice/pages/appbar_and_container.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: TextFieldClass(),
+      home: AppbarAndContainer(),
     );
   }
 }
