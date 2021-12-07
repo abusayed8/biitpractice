@@ -33,6 +33,7 @@ dependencies:
   image_picker: ^0.8.4+1
   google_maps_flutter: ^2.1.0
   math_expressions: ^2.2.0
+  curved_navigation_bar: ^1.0.1
 
 dev_dependencies:
   flutter_test:
